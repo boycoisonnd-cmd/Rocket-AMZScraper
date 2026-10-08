@@ -1,0 +1,40 @@
+{
+  "name": "rocket-amz-scraper",
+  "version": "1.0.0",
+  "description": "Rocket-AMZScraper - Advanced Data Extraction Engine for Chrome Manifest V3 across 23 Global Marketplaces",
+  "author": "Trần Linh",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:mcp": "npm --prefix mcp-server run build",
+    "package": "node scripts/package-zip.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "papaparse": "^5.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.33",
+    "@types/chrome": "^0.0.308",
+    "@types/node": "^22.13.4",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "puppeteer-core": "^25.13.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14",
+    "vitest": "^2.1.8"
+  }
+}
