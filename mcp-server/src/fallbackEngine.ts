@@ -57,7 +57,7 @@ export class DirectFallbackEngine {
     const html = await response.text()
     if (html.includes('api-services-support@amazon.com') || html.includes('validateCaptcha')) {
       throw new Error(
-        'Amazon yêu cầu Captcha khi cào qua Direct Fetch độc lập. Vui lòng mở Google Chrome có Rocket-AMZScraper để tự động dùng phiên duyệt thật!'
+        'Amazon yêu cầu Captcha khi cào qua Direct Fetch độc lập. Vui lòng mở Google Chrome có R-AMZscraper để tự động dùng phiên duyệt thật!'
       )
     }
 

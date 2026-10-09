@@ -38,7 +38,7 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
           <div>
             <div className="flex items-center gap-1.5">
               <h1 className="text-sm font-bold tracking-tight text-slate-900 dark:text-white">
-                Rocket-AMZScraper
+                R-AMZscraper
               </h1>
               <button
                 type="button"

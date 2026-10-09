@@ -114,7 +114,7 @@ async function run() {
     if (spErrors.length > 0) {
       console.error('❌ Sidepanel had runtime errors:', spErrors)
       testResults.errors.push(...spErrors)
-    } else if (spRootChildren > 0 && (spDetails.headerTitle.includes('Rocket-AMZScraper') || spDetails.headerTitle.includes('Amazon Scraper'))) {
+    } else if (spRootChildren > 0 && (spDetails.headerTitle.includes('R-AMZscraper') || spDetails.headerTitle.includes('Rocket-AMZScraper'))) {
       testResults.sidepanelRender = true
       console.log('✅ Sidepanel React App mounted and rendered flawlessly with 0 runtime errors!')
     } else {
@@ -259,7 +259,7 @@ async function run() {
       await sleep(3000)
 
       const widgetState = await amazonPage.evaluate(async () => {
-        const root = document.getElementById('rocket-amz-scraper-root') || document.getElementById('amazon-scraper-pro-root')
+        const root = document.getElementById('r-amzscraper-root') || document.getElementById('rocket-amz-scraper-root') || document.getElementById('amazon-scraper-pro-root')
         if (!root) return { rootFound: false }
 
         const scrapeBtn = root.querySelector('button')

@@ -22,7 +22,7 @@ export function registerTools(
               text: JSON.stringify({
                 status: 'extension_offline',
                 message:
-                  'Google Chrome Extension chưa được kết nối. Vui lòng mở Chrome có tiện ích Rocket-AMZScraper để trích xuất tab đang hoạt động.',
+                  'Google Chrome Extension chưa được kết nối. Vui lòng mở Chrome có tiện ích R-AMZscraper để trích xuất tab đang hoạt động.',
               }),
             },
           ],

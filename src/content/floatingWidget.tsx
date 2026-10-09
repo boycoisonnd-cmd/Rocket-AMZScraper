@@ -35,7 +35,7 @@ export const FloatingWidget: React.FC = () => {
           : 'Chưa nhận diện được loại trang này.'
       )
     } catch (err) {
-      console.error('[Rocket-AMZScraper] In-page error:', err)
+      console.error('[R-AMZscraper] In-page error:', err)
       setStatusMessage('Không thể trích xuất dữ liệu từ trang này.')
     } finally {
       setLoading(false)
@@ -135,7 +135,7 @@ export const FloatingWidget: React.FC = () => {
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <Layers size={17} aria-hidden="true" />
-              <span style={{ fontWeight: 700, fontSize: '13px' }}>Rocket-AMZScraper</span>
+              <span style={{ fontWeight: 700, fontSize: '13px' }}>R-AMZscraper</span>
             </div>
             <button
               type="button"

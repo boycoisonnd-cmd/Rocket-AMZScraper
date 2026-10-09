@@ -1,5 +1,5 @@
 /**
- * TypeScript interfaces for all 21 schemas of Rocket-AMZScraper.
+ * TypeScript interfaces for all 21 schemas of R-AMZscraper.
  */
 
 import { PriceBlock } from '../parsers/helpers'
