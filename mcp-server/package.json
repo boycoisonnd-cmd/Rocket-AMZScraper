@@ -1,11 +1,11 @@
 {
-  "name": "rocket-amz-mcp-server",
+  "name": "r-amz-mcp-server",
   "version": "1.0.0",
-  "description": "Model Context Protocol (MCP) Server for Rocket-AMZScraper",
+  "description": "Model Context Protocol (MCP) Server for R-AMZscraper",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "rocket-amz-mcp": "dist/index.js"
+    "r-amz-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

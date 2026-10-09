@@ -28,9 +28,9 @@ export const AMAZON_HOST_PATTERNS = [
 
 export default defineManifest({
   manifest_version: 3,
-  name: 'Rocket-AMZScraper',
+  name: 'R-AMZscraper',
   version: '1.0.0',
-  description: 'Rocket-AMZScraper - Advanced Data Extraction Engine for Chrome Manifest V3 across 23 Global Marketplaces.',
+  description: 'R-AMZscraper - Advanced Data Extraction Engine for Chrome Manifest V3 across 23 Global Marketplaces.',
   icons: {
     '16': 'icon16.png',
     '32': 'icon32.png',
@@ -55,7 +55,7 @@ export default defineManifest({
     type: 'module',
   },
   action: {
-    default_title: 'Rocket-AMZScraper - Click to Open Side Panel',
+    default_title: 'R-AMZscraper - Click to Open Side Panel',
     default_icon: {
       '16': 'icon16.png',
       '32': 'icon32.png',

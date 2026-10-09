@@ -8,10 +8,10 @@ import { registerTools } from './tools.js'
 async function main() {
   const port = parseInt(process.env.MCP_PORT || '8765', 10)
 
-  console.error('[MCP Server] Initializing Rocket-AMZScraper MCP Daemon...')
+  console.error('[MCP Server] Initializing R-AMZscraper MCP Daemon...')
 
   const server = new McpServer({
-    name: 'rocket-amz-scraper',
+    name: 'r-amzscraper',
     version: '1.0.0',
   })
 

@@ -1,7 +1,7 @@
 {
-  "name": "rocket-amz-scraper",
+  "name": "r-amzscraper",
   "version": "1.0.0",
-  "description": "Rocket-AMZScraper - Advanced Data Extraction Engine for Chrome Manifest V3 across 23 Global Marketplaces",
+  "description": "R-AMZscraper - Advanced Data Extraction Engine for Chrome Manifest V3 across 23 Global Marketplaces",
   "author": "Trần Linh",
   "type": "module",
   "scripts": {

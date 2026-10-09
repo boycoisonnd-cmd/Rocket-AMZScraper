@@ -12,7 +12,7 @@ import { mcpBridge } from './mcpBridge'
 mcpBridge.start()
 
 chrome.runtime.onInstalled.addListener(async () => {
-  console.log('[Background] Rocket-AMZScraper Extension Installed.')
+  console.log('[Background] R-AMZscraper Extension Installed.')
   await setupNetworkRules()
   mcpBridge.start()
 })

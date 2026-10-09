@@ -160,7 +160,7 @@ amazon-scraper/
 ### Giai đoạn 5: Kiểm thử thực tế (E2E Test) [Hoàn tất - 100%]
 1. [x] Kiểm thử tự động `mcp-server/test-mcp.mjs`: Bridge handshake, requestId, timeout & DirectFallbackEngine pass 100%.
 2. [x] Toàn bộ test suite Vitest (14/14 tests) và build pipeline pass 100%.
-3. [x] Đóng gói thành công [rocket-amz-scraper.zip](file:///c:/Users/ASUS/Desktop/amazon-scraper/rocket-amz-scraper.zip).
+3. [x] Đóng gói thành công [r-amzscraper.zip](file:///c:/Users/ASUS/Desktop/amazon-scraper/r-amzscraper.zip).
 
 ---
 

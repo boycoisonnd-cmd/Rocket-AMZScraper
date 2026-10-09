@@ -1,5 +1,5 @@
 /**
- * Amazon marketplaces served by Rocket-AMZScraper: one entry per ISO country code.
+ * Amazon marketplaces served by R-AMZscraper: one entry per ISO country code.
  */
 
 export interface MarketplaceConfig {

@@ -1,4 +1,4 @@
-# Rocket-AMZScraper 🚀 (Chrome Extension Manifest V3)
+# R-AMZscraper 🚀 (Chrome Extension Manifest V3)
 
 > Tiện ích Chrome Manifest V3 hỗ trợ trích xuất dữ liệu từ **23 thị trường Amazon** qua **21 endpoint**. Khả năng truy xuất phụ thuộc vào nội dung trang, phiên trình duyệt và phản hồi hiện tại của Amazon.
 
@@ -81,10 +81,10 @@
 2. Bật công tắc **Developer mode** (Chế độ dành cho nhà phát triển) ở góc trên bên phải.
 3. Nhấp vào nút **Load unpacked** (Tải tiện ích đã giải nén).
 4. Chọn thư mục `c:\Users\ASUS\Desktop\amazon-scraper\dist`.
-5. Tiện ích **Rocket-AMZScraper** sẽ xuất hiện trên thanh công cụ của Chrome!
+5. Tiện ích **R-AMZscraper** sẽ xuất hiện trên thanh công cụ của Chrome!
 
-### Cách 2: Cài đặt từ tệp đóng gói `rocket-amz-scraper.zip`
-1. Tệp `rocket-amz-scraper.zip` đã được đóng gói sẵn trong thư mục gốc dự án.
+### Cách 2: Cài đặt từ tệp đóng gói `r-amzscraper.zip`
+1. Tệp `r-amzscraper.zip` đã được đóng gói sẵn trong thư mục gốc dự án.
 2. Giải nén tệp zip này ra một thư mục.
 3. Truy cập `chrome://extensions/`, chọn **Load unpacked** và trỏ tới thư mục vừa giải nén.
 
@@ -94,7 +94,7 @@
 
 ### 1. Quét tức thì bằng Action Popup
 - Mở bất kỳ trang sản phẩm, tìm kiếm, hoặc bảng xếp hạng trên Amazon.
-- Nhấp vào biểu tượng tiện ích **🚀 Rocket-AMZScraper** trên thanh công cụ.
+- Nhấp vào biểu tượng tiện ích **🚀 R-AMZscraper** trên thanh công cụ.
 - Nhấp nút **🚀 1-Click Scrape Active Tab** để bóc tách ngay lập tức.
 - Nhấp **Copy JSON** hoặc **Export CSV** để lấy dữ liệu.
 
@@ -117,7 +117,7 @@
 
 ## 🤖 Kết Nối AI Trực Tiếp Qua Chuẩn MCP (Model Context Protocol)
 
-Rocket-AMZScraper tích hợp sẵn **MCP Server Daemon** cho phép các AI Assistant (Claude Desktop, Google Antigravity, Cursor, Windsurf, LangChain Agents...) gọi lệnh cào dữ liệu Amazon theo thời gian thực.
+R-AMZscraper tích hợp sẵn **MCP Server Daemon** cho phép các AI Assistant (Claude Desktop, Google Antigravity, Cursor, Windsurf, LangChain Agents...) gọi lệnh cào dữ liệu Amazon theo thời gian thực.
 
 ### Các công cụ MCP được cung cấp (8 Tools):
 1. `amazon_get_active_tab`: Trích xuất dữ liệu Live DOM từ tab Amazon đang mở trên trình duyệt.
@@ -176,4 +176,4 @@ npm run package
 
 ## 👤 Tác Giả & Bản Quyền
 - **Tác giả / Phát triển**: Trần Linh
-- **Dự án**: Rocket-AMZScraper (Chrome Extension Manifest V3)
+- **Dự án**: R-AMZscraper (Chrome Extension Manifest V3)

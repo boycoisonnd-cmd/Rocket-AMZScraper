@@ -9,12 +9,12 @@ import { FloatingWidget } from './floatingWidget'
 import { scrapeCurrentPage } from './inPageScraper'
 
 function initInPageWidget() {
-  if (document.getElementById('rocket-amz-scraper-root') || document.getElementById('amazon-scraper-pro-root')) {
+  if (document.getElementById('r-amzscraper-root') || document.getElementById('rocket-amz-scraper-root') || document.getElementById('amazon-scraper-pro-root')) {
     return
   }
 
   const container = document.createElement('div')
-  container.id = 'rocket-amz-scraper-root'
+  container.id = 'r-amzscraper-root'
   document.body.appendChild(container)
 
   const root = createRoot(container)
